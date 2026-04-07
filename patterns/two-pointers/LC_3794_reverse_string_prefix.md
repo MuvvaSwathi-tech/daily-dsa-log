@@ -166,18 +166,5 @@ assert reversePrefix("a", 1) == "a"
 
 ---
 
-## ✅ Mastery Checklist
-
-- [x] Problem understood
-- [x] Multiple approaches identified
-- [x] Solution coded
-- [x] Tests passing
-- [x] Complexity analyzed
-- [ ] Can solve variations with different constraints?  
-✅ Position type never changes  
-✅ Both reversed independently, merged back
-
----
-
 
 

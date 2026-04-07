@@ -47,3 +47,22 @@ def reversePrefix_twopointer(s: str, k: int) -> str:
         right -= 1
     
     return ''.join(chars)
+
+# ============================================================================
+# LC 283: Move Zeroes
+# ============================================================================
+
+def moveZeroes(nums: list[int]) -> None:
+    """
+    Move all zeroes to end while maintaining relative order of non-zero elements.
+    Do not return anything, modify nums in-place instead.
+    """
+    # Pointer for next non-zero position
+    next_non_zero = 0
+    
+    # Iterate through array
+    for current in range(len(nums)):
+        if nums[current] != 0:
+            # Swap with next non-zero position
+            nums[next_non_zero], nums[current] = nums[current], nums[next_non_zero]
+            next_non_zero += 1

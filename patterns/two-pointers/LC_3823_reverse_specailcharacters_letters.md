@@ -160,23 +160,12 @@ assert reverseLettersAndSpecialCharacters("!@#$") == "$#@!"
 | Metric | Value |
 |--------|-------|
 | **Date Solved** | Apr 6, 2026 |
-| **Difficulty** | Medium |
+| **Difficulty** | easy |
 | **Status** | ✅ Solved |
 | **Planning Time** | 5 min |
 | **Coding Time** | 8 min |
 | **Testing Time** | 3 min |
 | **Total Time** | 16 min |
 | **Submission** | 1st Attempt |
-
----
-
-## ✅ Mastery Checklist
-
-- [x] Problem understood
-- [x] Approach identified
-- [x] Solution coded
-- [x] Tests passing
-- [x] Complexity analyzed
-- [ ] Can solve similar variations? 
 
 
