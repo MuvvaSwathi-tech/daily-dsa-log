@@ -133,6 +133,7 @@ else:
 | Valid Palindrome | Easy | [LC 125](../LC_125_valid_palindrome.md) |
 | Reverse String | Easy | [LC 344](../LC_344_reverse_string.md) |
 | Remove Duplicates | Easy | [LC 26](../LC_26_remove_duplicates.md) |
+| Remove Element | Easy | [LC 27](../LC_27_remove_element.md) |
 | 2Sum (sorted) | Medium | [LC 167](../LC_167_two_sum_ii.md) |
 | Container With Most Water | Medium | [LC 11](../LC_11_container_with_water.md) |
 | 3Sum | Medium | LC 15 |
