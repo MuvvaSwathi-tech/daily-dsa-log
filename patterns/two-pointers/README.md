@@ -1,43 +1,42 @@
 # Two Pointers Pattern
 
-The two-pointers technique is fundamental for solving many array/string problems efficiently.
+The two pointers pattern is a versatile technique for solving array and string problems efficiently by using two indices to traverse the data structure.
 
 ---
 
-## 🎯 Core Concept
-
-Use **two independent pointers** moving through the data structure to solve the problem:
-- **Starting Positions:** Can start from opposite ends, same start, or moving together
-- **Movement:** Pointers move based on some condition (compare values, skip duplicates, etc.)
-- **Meeting:** Usually terminate when pointers meet or cross
-
----
-
-## ⏱️ Time & Space
-
-- **Time Complexity:** Usually **O(n)** - single pass through data
-- **Space Complexity:** Usually **O(1)** - in-place operations, or O(n) if modifying/creating output
+## Core Concept
+- Use two pointers (indices) that move independently through the array or string
+- Pointers can start at the same or different positions (e.g., both ends, both at start)
+- Move pointers based on problem-specific conditions (comparison, skipping, merging, etc.)
+- Often used to reduce time complexity to O(n)
 
 ---
 
-## 🎬 Key Patterns
+## Time & Space Complexity
+- **Time Complexity:** O(n) (typically single pass)
+- **Space Complexity:** O(1) (in-place), O(n) if extra output is needed
 
-### Pattern 1: Opposite Ends Meeting
+---
 
-```python
-# Start from both ends, move toward middle
-left, right = 0, len(arr) - 1
-while left < right:
-    if condition:
-        left += 1
-    else:
-        right -= 1
-```
-
-**Use Cases:**
-- Palindrome validation
+## Common Use Cases
+- Palindrome checking
 - Reverse operations
+- Remove duplicates or elements
 - Container with most water
+- Merging sorted arrays
+
+---
+
+## Example Problems
+- LC 26: Remove Duplicates from Sorted Array
+- LC 27: Remove Element
+- LC 283: Move Zeroes
+- LC 344: Reverse String
+- LC 11: Container With Most Water
+
+---
+
+**Tip:** Identify if the problem can be solved by moving two pointers towards or away from each other, or by maintaining a window between them.
 - Valid trapping rain water
 
 ---

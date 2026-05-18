@@ -25,13 +25,7 @@ One pattern per week. **This week: Two Pointers**
 
 After mastering Two Pointers, we'll move to:
 
-- **Week 2:** Sliding Window
-- **Week 3:** Binary Search
-- **Week 4-5:** Dynamic Programming
-- **Week 6:** Tree/Graph Traversals
-- **Week 7:** Backtracking
-- **Week 8:** Heap/Priority Queue
-- **Week 9:** Linked Lists
+
 
 ---
 
